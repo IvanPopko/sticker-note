@@ -1,0 +1,85 @@
+body {
+    background-color: #fff;
+}
+
+.sticker {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.example-1
+{
+	display:inline-block;   
+
+   /*оформление текста*/
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+
+    /*float: left; /* прижимаемся к левому краю, обтекание справа */
+    /*background: #fff; /* фон */
+    /*padding: 5px; /* внутренние отступы(верх, право, низ, лево) */
+    /*border: 1px solid #777; /* граница(ширина, тип, цвет) */
+    /*border-radius: 50%; /*скругление равно 50 процентам от общей ширины, фактически 25 пикселей, вот и круг получили(ещё есть с префиксом -moz и -o) */
+    /*box-shadow: 0px 1px 1px 1px #bbb; /* смещение по горизонтали, смещение по вертикали, размытие, увеличение и цвет */
+}
+
+.example-1 .dv-text
+{
+	display:block;
+    position:absolute;
+    left:10px;
+    top:-5px;
+    bottom:10px;
+    width:50%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+     
+    color:#000;
+         
+    padding:10px;
+}
+
+.example-1 .sticker-img {
+    background-image: url(../img/sticker.jpg);
+}
+
+.example-2 
+{
+	display:inline-block;   
+
+   /*оформление текста*/
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px; 
+}
+
+.example-2 .dv-text
+{
+	display:block;
+    position:absolute;
+    left:10px;
+    top:-5px;
+    bottom:10px;
+    width:50%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+     
+    color:#000;
+         
+    padding:10px;
+}
+
+.example-2 .sticker-img {
+    background-color: #ff4a85;
+}
+
+.example-2 .sticker-shadow {
+    opacity: 0.6;
+}
